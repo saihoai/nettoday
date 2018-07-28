@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: red;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="60" y="17" width="45" height="45" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="65.969" y="22.594" width="34.031" height="34.437" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="65.969" y="21.969" width="34.031" height="34.437" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Shape_01" class="cls-1" d="M60,39.5A22.5,22.5,0,1,0,82.5,17,22.526,22.526,0,0,0,60,39.5Zm1.8,0A20.7,20.7,0,1,1,82.5,60.2,20.723,20.723,0,0,1,61.8,39.5Z" transform="translate(-60 -17)"/>
+  <path id="Shape_02" class="cls-2" d="M75.381,32.11C66.984,40.6,63.568,50.959,67.767,55.2S82.212,56,90.609,47.506s11.813-18.849,7.614-23.093S83.778,23.621,75.381,32.11ZM76.6,33.342c7.725-7.81,16.543-11.6,20.406-7.7s0.111,12.82-7.614,20.631-16.543,11.6-20.406,7.7S68.874,41.152,76.6,33.342Z" transform="translate(-60 -17)"/>
+  <path id="Shape_03" class="cls-3" d="M90.609,31.494c8.4,8.489,11.813,18.849,7.614,23.093s-14.445.792-22.842-7.7S63.568,28.041,67.767,23.8,82.212,23,90.609,31.494Zm-1.218,1.231c-7.725-7.81-16.543-11.6-20.406-7.7S68.874,37.848,76.6,45.658s16.543,11.6,20.406,7.7S97.116,40.536,89.391,32.725Z" transform="translate(-60 -17)"/>
+</svg>
