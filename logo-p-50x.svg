@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fc1d00;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="781" y="5964" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#796eff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="786.625" y="5969.59" width="39.469" height="39.5" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#796eff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="786.625" y="5968.91" width="39.469" height="39.5" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#796eff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Shape_01" class="cls-1" d="M781,5989a25,25,0,1,0,25-25A25.032,25.032,0,0,0,781,5989Zm2,0a23,23,0,1,1,23,23A23.028,23.028,0,0,1,783,5989Z" transform="translate(-781 -5964)"/>
+  <path id="Shape_02" class="cls-2" d="M797.515,5980.51c-9.748,9.75-13.713,21.65-8.839,26.52s16.769,0.91,26.516-8.84,13.713-21.64,8.839-26.51S807.262,5970.77,797.515,5980.51Zm1.414,1.42c8.968-8.97,19.2-13.32,23.688-8.84s0.129,14.72-8.839,23.69-19.2,13.32-23.688,8.84S789.961,5990.9,798.929,5981.93Z" transform="translate(-781 -5964)"/>
+  <path id="Shape_03" class="cls-3" d="M815.192,5979.81c9.748,9.75,13.713,21.64,8.839,26.51s-16.769.91-26.516-8.83-13.713-21.65-8.839-26.52S805.445,5970.06,815.192,5979.81Zm-1.414,1.41c-8.968-8.97-19.2-13.32-23.688-8.84s-0.129,14.72,8.839,23.69,19.2,13.32,23.688,8.84S822.746,5990.19,813.778,5981.22Z" transform="translate(-781 -5964)"/>
+</svg>
